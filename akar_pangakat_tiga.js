@@ -1,8 +1,8 @@
 function akarPangkatTiga(a) {
-  return a ** 3;
+  return Math.cbrt(a);
 }
 
-console.log(akarPangkatTiga(10)); //1000
-console.log(akarPangkatTiga(3)); //27
-console.log(akarPangkatTiga(5)); //125
-console.log(akarPangkatTiga(9)); //729
+console.log(akarPangkatTiga(1000)); //10
+console.log(akarPangkatTiga(27)); //3
+console.log(akarPangkatTiga(125)); //5
+console.log(akarPangkatTiga(729)); //9
