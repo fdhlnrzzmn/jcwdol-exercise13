@@ -36,15 +36,28 @@ switch (menu) {
     alert('Masukan anda tidak terdapat pada menu');
 }
 
-function penjumlahan() {}
+const penjumlahan = () => {
+    let angkaPertama = parseInt(prompt("Masukkan angka pertama"));
+    let angkaKedua = parseInt(prompt("Masukkan angka kedua"));
+
+    let hasil = angkaPertama + angkaKedua;
+
+    alert(`Hasil penjumlahan antara ${angkaPertama} dan ${angkaKedua} adalah ${hasil}`)
+}
+
 function pengurangan() {}
+
 function pembagian() {}
+
 function perkalian() {}
+
 // add by Helmi Effendi
 function pangkat2() {
   const num = prompt('Input number for squared : ');
   const result = parseInt(num) * parseInt(num);
   alert(`${num} Squared is ${result}`);
 }
+
 function akarPangkat2() {}
+
 function akarPangkat3() {}
