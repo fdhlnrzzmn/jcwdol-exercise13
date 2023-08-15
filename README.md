@@ -1,7 +1,7 @@
 # Kelompok GG
 
 ## Developer :
-- [Fadhil Nuruzzaman]()
+- [Fadhil Nuruzzaman](https://github.com/fdhlnrzzmn)
 - [Alexander Go]()
 - [Helmi Siswo Effendi](https://github.com/helmai1)
 - [Muchamad Choirul Anwar]()

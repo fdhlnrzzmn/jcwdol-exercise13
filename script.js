@@ -49,11 +49,12 @@ function pengurangan() {}
 
 function pembagian() {}
 
-// add by Muhammad Hilman Rafialdy
+
 function perkalian() {
-  const angka1 = parseFloat(prompt('Masukkan Angka Pertama: '));
-  const angka2 = parseFloat(prompt('Masukkan Angka Kedua: '));
+  const angka1 = parseInt(prompt('Masukkan Angka Pertama: '));
+  const angka2 = parseInt(prompt('Masukkan Angka Kedua: '));
   const hasilPerkalian = angka1 * angka2;
+  
   alert(`${angka1} di kali dengan ${angka2} = ${hasilPerkalian}`);
 }
 
