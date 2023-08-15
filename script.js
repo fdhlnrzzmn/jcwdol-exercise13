@@ -54,7 +54,7 @@ function perkalian() {
   const angka1 = parseFloat(prompt('Masukkan Angka Pertama: '));
   const angka2 = parseFloat(prompt('Masukkan Angka Kedua: '));
   const hasilPerkalian = angka1 * angka2;
-  alert(`${angka1} di kali dengan ${angka2} = ${hasil}`);
+  alert(`${angka1} di kali dengan ${angka2} = ${hasilPerkalian}`);
 }
 
 
