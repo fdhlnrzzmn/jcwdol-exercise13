@@ -36,7 +36,7 @@ switch (menu) {
     alert('Masukan anda tidak terdapat pada menu');
 }
 
-const penjumlahan = () => {
+function penjumlahan(){
     let angkaPertama = parseInt(prompt("Masukkan angka pertama"));
     let angkaKedua = parseInt(prompt("Masukkan angka kedua"));
 
